@@ -25,27 +25,66 @@ const first = document.querySelector(".input");
 
 btn1.addEventListener("click" , (e) =>{
     e.preventDefault()
-    // btn1.style.width = "30px"
-    // btn1.style.heigth = "40px"
-    const natija = (first.value - 0) + (second.value - 0)
-    result.textContent = natija
+    first.value += "+";
 })
 btn2.addEventListener("click" , (e) =>{
     e.preventDefault()
-    const natija = (first.value - 0) - (second.value - 0)
-    result.textContent = natija
+    first.value += '-';
 })
 btn3.addEventListener("click" , (e) =>{
     e.preventDefault()
-    const natija = (first.value - 0) * (second.value - 0)
-    result.textContent = natija
+    first.value += '*';
 })
 btn4.addEventListener("click" , (e) =>{
     e.preventDefault()
-    const natija = (first.value - 0) / (second.value - 0)
-    result.textContent = natija
+    first.value += '/';
 })
 btn5.addEventListener("click" , (e) =>{
     e.preventDefault()
-    first.textContent = 1;
+    first.value += '1';
 })
+btn6.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value += '2';
+})
+btn7.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value += '3';
+})
+btn8.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value += '4';
+})
+btn9.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value += '5';
+})
+btn10.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value += '6';
+})
+btn11.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value += '7';
+})
+btn12.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value += '8';
+})
+btn13.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value += '9';
+})
+btn14.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value += '0';
+})
+btn16.addEventListener("click" , (e) =>{
+    e.preventDefault()
+    first.value = " ";
+})
+btn15.addEventListener('click', (e) => {
+    e.preventDefault()
+    console.log(first.value);
+    first.value = eval(first.value);
+});
