@@ -1,0 +1,97 @@
+.container{
+    padding: 50px 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 180px;
+    height: 200px;
+    padding-bottom: -20px;
+    background-color: rgb(9, 9, 9);
+}
+.input{
+    width: 180px;
+    height: 40px;
+    background-color: blue;
+    margin-bottom: 15px;
+}
+.amallar{
+    display: flex;
+}
+.son{
+    display: flex;
+}
+.son1{
+    display: flex;
+}
+.son2{
+    display: flex;
+}
+.btn1{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn2{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn3{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn4{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn5{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn6{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn7{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn8{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn9{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn10{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn11{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn12{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn13{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.btn14{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
